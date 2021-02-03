@@ -19,11 +19,9 @@ namespace BigBucks2._0
 
         private static int instanceIDCounter = 1;
 
-        public string DefaultImage { get; set; }
-
         public int InstanceID { get; set; }
 
-        public string Image { get; set; }
+        public string Image { get; set; } = "/Images/default.jpgImages";
 
         public string Name { get; set; }
 
